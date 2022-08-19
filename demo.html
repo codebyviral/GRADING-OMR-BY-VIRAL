@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral's omr validating site</title>
+    <link rel="icon" href="omr.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <marquee style="color: #ef233c;" scrollamount="12"  behavior="slide" direction="">
+       <p> Welcome to OMR Grading Website Demo </p>
+    </marquee>
+    <h3>
+        This Demo is for 4/1 marking system.
+    </h3>
+    enter real answer for question 1
+    <input id="ui1"type="text"><br><br>
+    enter your answer for question 1
+    <input id="u1"type="text"><br><br>
+    enter real answer for question 2
+    <input id="ui2"type="text"><br><br>
+    enter your answer for question 2
+    <input id="u2"type="text"><br><br>
+    <br><br>
+    <button onclick="demoscriptfunc()">
+    submit</button>
+       <script>
+        function demoscriptfunc(){
+    var q1 =document.getElementById("ui1").value;
+    var q1a =document.getElementById("u1").value;
+    var q2=document.getElementById('ui2').value;
+    var q2a=document.getElementById('u2').value;    
+        var totalm=[];
+        var totneg=[];
+        var totna=[];
+        // q1
+        if(q1==''){
+            totna.push(0);
+        } else if(q1==q1a){
+            totalm.push(4);
+        } else{
+            totneg.push(1);
+        }
+        // q2
+        if(q2==''){
+            totna.push(0);
+        } else if(q2==q2a){
+            totalm.push(4);
+        } else{
+            totneg.push(1);
+        }
+        // q3
+        // q4
+        // q5
+        // q6
+        let sumofAll=0;
+        for(let i=0; i<totalm.length; i++){
+            sumofAll+=totalm[i];
+        }
+        let negativeSumOfAll=0;
+        for(let x=0; x<totneg.length; x++){
+            negativeSumOfAll+=totneg[x];
+        }
+        let notAttemptedSum=0;
+        for(let v=0; v<totna.length; v++){
+            notAttemptedSum+=totna[v];
+        }
+        var finalcalculatedmarks=sumofAll-negativeSumOfAll;
+        console.log('The Marks are: '+finalcalculatedmarks);
+        alert(` Your Marks Are: ` + finalcalculatedmarks);
+        console.log('total not attempted are '+notAttemptedSum);
+        console.log('sum of total marks are without -ve marking '+sumofAll);
+        console.log('total -ve marking are -'+negativeSumOfAll);
+}
+    </script>
+</body>
+</html>
