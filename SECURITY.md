@@ -1,5 +1,5 @@
 # Security Policy
-National Policy on Information Technology, 202
+National Policy on Information Technology, 2022
 (NPIT 2022)
 PREAMBLE
 Information Technology is a key driver of an increasingly knowledge based global
