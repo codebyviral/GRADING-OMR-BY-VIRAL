@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style/style.css" />
+    <script src="script/signup.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRADING OMR TECH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/o.png" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3963382608808361"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      
+    </script>
+  </head>
+  <body id="body"  onload="myFunction()">
+    <div id="loading"></div>
+    <style>
+      #loading {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fff url("https://i.ibb.co/pv8XhKC/O.gif") no-repeat center
+          center;
+        z-index: 99999;
+        animation-timeline: 3s;
+      }
+    </style>
+
+    <div id="preloader"></div>
+
+    <!-- The navigation bar -->
+<nav>
+  <ul >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="/About us/about.html">About</a></li>
+    <!-- <li><a href="/Blog/blog.html">Blog</a></li> -->
+    <li><a href="/feature request/freq.html">Contact</a></li>
+    <!-- <li><a href="/OMR/omr.html">OMR</a></li> -->
+    <li><a  onclick="alreadysup()" >Sign up</a></li>
+    <li><a  href="login.html" >Login</a></li> 
+  </ul>
+</nav>  <br><br><br>
+<div id="TuTWebTe" ><h3>
+    Forgot Account Details 
+</h3></div>  <br><br><br>
+Reset Your Account Details here. Create new email OR Password
+    <form style="font-size: 20px;" id="signup-form" method="post" action="https://formspree.io/f/xgebwpdo">
+        <input name="email" id="email"  type="text" placeholder="Reset Email" > <br> <br>
+        <input name="password" id="password" type="password" placeholder="Reset Password" > <br><br>
+       <button onclick="signup()" type="submit" >
+        Submit
+       </button>
+    </form> <script src="script/signup.js"></script>
+    <script>
+      function signup(){
+        alert(`Reset successful! You'll get email once your account is activated!`)
+      }
+    //   function suvalidation(e){
+    //     event.preventDefault();
+    //   var newUserEmail = document.getElementById('email').value;
+    //   var newUserPassword = document.getElementById('password').value;
+    //   window.localStorage.setItem('nue',newUserEmail)
+    //   window.localStorage.setItem('nup',newUserPassword)
+    // }
+    </script>
+    <footer id="">
+      <br />
+     
+      <div>
+      Need help? provide specific feedback by </div>
+      <a href="/bugs/bug.html">reporting an issue.</a>
+      <script src="/script/index.js"></script>
+      <style>
+        #bug {
+          size: 4px;
+        }
+        
+      </style>
+      <br><br><br>
+      <span>
+        Copyright © 2022 Viral Vaghela, viral's omr validating WebApp is under
+        <a
+          target="_blank"
+          href="https://github.com/viralvaghela123/gradingomr/blob/main/LICENSE"
+          >Apache-2.0 License.</a
+        >
+        <br>
+        <img style=" margin-top: 40px; height: 50px; width: 50px" src="/images/o.png" alt="" /><br /><br />
+
+        ~Made with ❤️  <br /><br />
+        <a href="/About us/about.html"> About Us </a>
+        <br /><br /><br />
+    </footer>
+   
+  </body>
+</html>
