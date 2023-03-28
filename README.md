@@ -28,3 +28,10 @@ was initially on testing befor 19/8/2022
 Developed a prototype which actually works was researched on 16/8/2022
 
 Feel free to contact us! https://gradingomr.tech/about.html
+
+#New Features ✨
+This commit adds several new features to the GradingOMRTech website, including the ability to generate PDFs of marks and display marks on the existing page of the file. In addition, a new bubble button feature has been implemented that allows users to directly select answer options using radio buttons instead of manually entering options in the input field.
+
+However, it's important to note that the bubble button feature has been disabled for now, as further testing and refinement is needed before it can be fully implemented. Once it's ready for use, it will greatly enhance the user experience and streamline the grading process even further.
+
+Overall, this commit represents a significant improvement to the functionality and user experience of the GradingOMRTech website, and sets the stage for even more exciting features to come in the future.
