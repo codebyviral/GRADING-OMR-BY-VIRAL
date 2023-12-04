@@ -1,4 +1,24 @@
-# Welcome to OMR Grading Website
+
+# Answer Validator For Students
+
+A brief description of what this project does and who it's for: 
+
+Revolutionizing Grading Process for Students. This webapp helps students to validate their marks by comparing the answer option of multiple choice questions option field. We will soon integrate AI into this and add more features which will not only help students but also institutions to save time for grading process.
+
+# How To Use?
+
+ You have to enter options of mcq's in input fields. Here's how: first you've to enter the real answer option and then your attempted answer option. For Questions not attempted leave it blank.
+No uppercase or lowercase necessary. You can click enter in your smartphone to move on next input field to save time!
+
+You have to be very careful while entering the options because a single mistake can lead to your entire submission get false results.
+
+You can even enter 1234 instead of abcd.
+
+The options have to be entered in a specific format which is given below:Real Answer Option : Attempted Answer OptionFor example,
+if the correct answer is A and you have selected B as your answer, then you will have to enter the following in the input fields: A : B
+If you do not attempt a question, then you will have to leave that field blank. After you are done with all the questions, you can click on the submit button and your answers will be submitted automatically.
+And your result will be printed.
+
 
 Special Instructions:
 
@@ -13,6 +33,15 @@ For Questions not attempted leave it blank.
 You can click enter in your smartphone to move on next input field (only applicable for smartphones)
 
 for demo https://gradingomr.tech/demo/demo.html (link is expired updated version coming soon)
+
+
+## Badges
+
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/codebyviral/GRADING-OMR-WEBAPP/blob/main/LICENSE)
+
+
 
 # How it Works? 
 Our website perform calculations based on your input. it validates data with your given data and perform calculations. 
