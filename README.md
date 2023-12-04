@@ -12,7 +12,7 @@ first you've to enter the real answer option and then your attempted answer opti
 For Questions not attempted leave it blank.
 You can click enter in your smartphone to move on next input field (only applicable for smartphones)
 
-for demo https://gradingomr.tech/demo/demo.html
+for demo https://gradingomr.tech/demo/demo.html (link is expired updated version coming soon)
 
 # How it Works? 
 Our website perform calculations based on your input. it validates data with your given data and perform calculations. 
@@ -27,7 +27,7 @@ was initially on testing befor 19/8/2022
 
 Developed a prototype which actually works was researched on 16/8/2022
 
-Feel free to contact us! https://gradingomr.tech/about%20us/about
+Feel free to contact us! https://gradingomr.tech/about%20us/about (link is expired updated version coming soon)
 
 #New Features ✨
 
